@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+#canvas1{
+    border: 3px solid white;
+    top: 50%; /*To study this function*/
+    left: 50%; /*To study this function*/
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    transform: translate(-50%, -50%); /* To study this function */
+}
+.botones{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.botones .rojo, .verde, .azul{
+    color: azure;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.rojo{
+    background-color: rgba(255, 21, 0, 0.76);
+}
+.rojo:hover{
+        background-color: rgba(255, 21, 0, 0.959);
+}
+.verde{
+    background-color: rgba(18, 117, 5, 0.774);
+}
+.verde:hover{
+    background-color: rgba(18, 117, 5, 0.952);
+}
+.azul{
+    background-color: rgba(5, 8, 161, 0.753);
+}
+.azul:hover{
+        background-color: rgb(5, 8, 161);
+}
