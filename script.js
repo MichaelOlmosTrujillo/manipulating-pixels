@@ -15,9 +15,12 @@ images1.addEventListener('load', function(){
     for(let i = 0; i < scannedImageData.length; i+=4){
         const suma = scannedImageData[i] + scannedImageData[i + 1] + scannedImageData[i + 2];
         const promedio = suma/3;
-        scannedImageData[i] = promedio * 2;
-        scannedImageData[i+1] = promedio + 10;
-        scannedImageData[i+2] = promedio -250;
+        let var1 = Math.random()*100;
+        let var2 = Math.random()*100;
+        let var3 = Math.random()*100;
+        scannedImageData[i] -=  var1;
+        scannedImageData[i+1] -=  var2;
+        scannedImageData[i+2] +=  var3;
 
     }
     scannedImage.data = scannedImageData;
