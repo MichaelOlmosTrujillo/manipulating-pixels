@@ -4,7 +4,7 @@ canvas.width = 800;
 canvas.height = 450;
 // Función de javascript Image() (Estudiarla)
 const images1 = new Image();
-images1.src = '../images/chagalito.jpg';
+images1.src = './images/chagalito.jpg';
 
 images1.addEventListener('load', function(){
     //Dibuja la imagen en el canvas con el ancho y alto del canvas
